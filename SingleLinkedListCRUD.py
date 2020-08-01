@@ -26,7 +26,7 @@ class linkedlist:
                 view1 = view1.next
             print(li)
         except:
-            print("something went wrong")
+            print("linked list is empty")
 
     # addnode
     def addnode(self):
@@ -97,7 +97,7 @@ class linkedlist:
                 return
             prev.next = h.next
             h = None
-            print("Node element")
+            print("Node deleted")
         except:
             print("something went wrong")
 
